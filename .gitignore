@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtuele omgevingen
+venv/
+.venv/
+env/
+ENV/
+
+# Omgevingsvariabelen en geheimen
+.env
+.flaskenv
+
+# Docker & Lokale configuratie
+.docker/
+docker-compose.override.yml
+
+# IDE instellingen
+.vscode/
+.idea/
+*.swp
+
+# Logs en databases
+*.log
+*.sqlite
+*.db
+
+# OS-specifieke bestanden
+.DS_Store
+Thumbs.db
